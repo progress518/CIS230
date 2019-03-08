@@ -1,0 +1,68 @@
+body
+{
+	background: #f9e933;
+}
+
+header, main, footer
+{
+	min-width: 855px;
+	
+}
+
+.container {
+	max-width: 855px;
+	margin: auto;
+}
+
+header{
+	background: white;
+	overflow: auto;
+}
+
+header h1
+
+ {
+	float: left;
+	width: 570px;
+}
+.leftContent, .contact {
+	float: left;
+	width: 570px;
+}
+
+.rightContent, .sitemap {
+	float: right;
+}
+header nav {
+	float: right;
+	width: 285px;
+}
+
+main p, main h2 {
+	float: left;
+	width: 570px;
+}
+
+.faq {
+	clear: both;
+}
+
+main img {
+	float: right;
+	width: 285px;
+}
+
+h3 {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+main {
+	background: white;
+	overflow: auto;
+}
+
+footer {
+	clear: both;
+}
+
