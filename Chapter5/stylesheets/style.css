@@ -1,0 +1,135 @@
+/**/
+
+body
+{
+	background: #f9e933;
+	font-size: 100%;
+	font-family: 'denk-one', sans-serif;
+}
+
+h1, footer h1 {
+	font-size: xx-large;
+}
+
+h2 {
+	font-family: 'denk-one', sans-serif;
+	font-size: x-large;
+}
+
+h3 {
+	font-family: 'denk-one', sans-serif;
+	font-size: large;
+}
+
+h5 {
+	font-family: 'denk-one', sans-serif;
+	font-size: large;
+}
+
+footer h5 {
+	padding-bottom: 5px;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	color: red;
+}
+
+a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+header, main, footer
+{
+	min-width: 855px;
+	padding: 20px;
+	
+}
+
+main h1, main h2, main h3, main ul {
+	padding: 5px 5px 5px 0px;
+}
+
+body p {
+	padding: 10px 10px 10px 0px;
+}
+
+
+
+header .container, main .container, footer .container {
+	max-width: 855px;
+	margin: auto;
+}
+
+header{
+	background: white;
+	overflow: auto;
+}
+
+header h1
+
+ {
+	float: left;
+	width: 570px;
+	font-family: 'denk-one', sans-serif;
+	color: yellow;
+	font-size: 3em;
+	font-style: italic;
+}
+.leftContent, .contact {
+	float: left;
+	width: 570px;
+}
+
+.rightContent, .sitemap {
+	float: right;
+}
+
+.leftdiv {
+	float: left;
+	padding-right: 10px;
+	
+}
+
+.rightdiv {
+	float: right;
+	padding-left: 10px;
+}
+
+header nav {
+	float: right;
+	width: 285px;
+}
+
+main p, main h2 {
+	float: left;
+	width: 570px;
+}
+
+footer p:last-of-type {
+	padding-bottom: 10px;
+}
+
+.faq {
+	clear: both;
+}
+
+.contact p {
+	padding: 0px;
+}
+
+main img {
+	float: right;
+	width: 285px;
+}
+
+main {
+	background: white;
+	overflow: auto;
+}
+
+footer {
+	clear: both;
+}
+
