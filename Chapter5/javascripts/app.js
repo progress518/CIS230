@@ -6,10 +6,10 @@ var main = function () {
 	
 	$.getJSON(url, function (flickrResponse) {
 		flickrResponse.items.forEach(function (photo) {
-		var $img = $("<img>").hide();
+		var $img = $("<img>").fadeIn();
 		$img.attr("src", photo.media.m);
 		$("main .photos").append($img);
-		$img.fadeIn();
+		$img.hide();
 	});
 });
 };
